@@ -1,0 +1,20 @@
+<div id="actualite">
+    <div class="content">
+        <div class="subtitle">
+            <h1>ACTUALITÉS</h1>
+        </div>
+        <hr class="hr-subtitle"/>
+        {loop="articles"}
+        {if="$value->getId() > 1"}
+        <div class="illustration">
+            <img src='{$value->getUrl()}' width="560" height="420" alt="" />
+            <div class="date">{$value->getDate()}</div>
+            <div class="tagname">{$value->getCategory()}</div>
+            <div class="title">{$value->getTitle()}</div>
+            <div class="text">{$value->getText()}</div>
+            <div class="more"><a href="#">LIRE PLUS</a></div>
+        </div>
+        {/if}
+        {/loop}
+    </div> 
+</div>

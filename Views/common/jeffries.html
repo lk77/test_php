@@ -1,0 +1,19 @@
+<div id="jeffries">
+    <div class="content">
+        <div class="subtitle">
+            <h1>{$imagestitle}</h1>
+        </div>
+        <hr class="hr-subtitle"/>
+        <ul id="hexGrid">
+            {loop="images"}
+            <li class="hex">
+                <a class="hexIn" href="#">
+                    <img src='{$value->getUrl()}' alt="">
+                    <h1>{$value->getTitle()}</h1>
+                    <p>{$value->getText()}</p>
+                </a>
+            </li>
+            {/loop}
+        </ul>
+    </div>
+</div>

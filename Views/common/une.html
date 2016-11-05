@@ -1,0 +1,16 @@
+<div id="une">
+    <div class="content">
+        <div class="subtitle">
+            <h1>A LA UNE</h1>
+        </div>
+        <hr class="hr-subtitle"/>
+        <div class="illustration">
+            <div class="date">{$articles.0->getDate()}</div>
+            <img src="{$articles.0->getUrl()}" width="580" height="500" alt="" />
+        </div>
+        <div class="text">
+            {$articles.0->getText()}
+        </div>
+
+    </div>
+</div>

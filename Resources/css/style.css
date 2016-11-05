@@ -1,0 +1,344 @@
+html{
+
+}
+body{
+    margin:0;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+
+
+.content{
+    padding:0 20%;
+}
+#header{
+    width:1920px;
+    height:120px;
+    background-color:white;
+}
+#logo{
+    margin: 24px 0 22px 20px;
+}
+#contact-us{
+    display:inline-block;
+    height: 37px;
+    width:160px;
+    float: left;
+}
+#contact-us > a > p {
+    float: left;
+    margin-top: 9px;
+    margin-left:9px;
+    color:#8e8e8e;
+}
+#top-social{
+    display:inline-block;
+    height: 37px;
+    width:384px;
+    margin-top:53px;
+    margin-bottom:32px;
+    float:right;
+}
+.mail_img{
+    margin-top:11px;
+    float:left;
+}
+.social_img{
+    margin-right:3px;
+}
+a:first-child > .social_img{
+    margin-left:12px;
+}
+a:last-child > .social_img{
+    margin-right:7px;
+}
+#top-menu{
+    width:1920px;
+    height:67px;
+    background-color: rgba(190,190,190,0.7);
+}
+#top-menu > div > nav > ul > li > a{
+    display:        table-cell;
+    vertical-align: middle;
+    height:63px;
+    min-width:150px;
+    max-width:300px;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size:90%;
+    color:#ffffff;
+}
+#top-menu > div > nav > ul > li > a:hover, #top-menu > div > nav > ul > li > a:active{
+    display:        table-cell;
+    vertical-align: middle;
+    height:63px;
+    min-width:150px;
+    max-width:300px;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size:90%;
+    color:#12a184;
+    background:none;
+}
+
+#top-menu > div > nav > ul > li > a > p{
+    margin:0;
+    border-left: 5px solid transparent;
+    padding-left:15px;
+    padding-right:15px;
+}
+#top-menu > div > nav > ul > li > a:hover > p, #top-menu > div > nav > ul > li > a:active > p{
+    border-left: 5px solid #12a184;
+}
+ul.nav{
+    height:67px;
+    margin:0;
+}
+#search{
+    display: inline-block;
+    width: 200px;
+    margin-left: 100px;
+    height: 63px;
+    position:relative;
+}
+#search > div.input-group{
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+}
+span.glyphicon-search{
+    font-size: 1.2em;
+}
+span.input-group-addon{
+    padding:0;
+    margin:0;
+    border:none;
+    border-radius: 0 10px 10px 0;
+}
+span.input-group-addon > button{
+    border:none;
+    background:none;
+}
+.input-group-addon:last-child {
+    border-left: 0;
+    background: white;
+}
+.input-group > input{
+    border:none;
+    height:50px;
+    border-radius: 10px 0 0 10px;
+}
+#slider{
+    width:1920px;
+    height:686px;
+    position:relative;
+    background-image:url("../../Resources/images/lens.jpg");
+    background-size: 1920px 686px;
+}
+#hangs{
+    position: absolute;
+    top: 50%;
+    margin-top: -100px;
+    width:1200px;
+    height:200px;
+    text-align:center;
+    color:white;
+    font-size:200%;
+}
+#hangs h1,#hangs h2{
+    font-weight:bold;
+    font-size:200%;
+}
+#une{
+    width:1920px;
+    height:752px;
+    position:relative;
+    background-color:white;
+}
+.subtitle{
+    background-color:#12a184;
+    position: absolute;
+    margin-top:60px;
+    min-width:200px;
+    max-width:300px;
+    height:80px;
+    padding: 0 10px;
+    text-align:center;
+    color:white;
+    font-size:200%;
+}
+.hr-subtitle{
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #d6d3d3;
+    float: right;
+    width: 80%;
+    margin-top: 95px;
+}
+.illustration{
+    width: 580px;
+    float: left;
+    height: 500px;
+    margin-top: 60px;
+    position:relative;
+}
+.date{
+    background-color:#12a184;
+    position: absolute;
+    margin-top:50px;
+    margin-left:50px;
+    padding:10px;
+    width:200px;
+    height:50px;
+    line-height: 31px;
+    text-align:center;
+    color:white;
+    font-size:130%; 
+}
+.text{
+    width: 500px;
+    float: right;
+    height: 500px;
+    margin-top: 60px;
+    font-size:130%;
+    color:#7e7e7e;
+}
+#passion{
+    width:1920px;
+    height:337px;
+    background-color:grey;
+}
+#actualite{
+    width:1920px;
+    height:1024px;
+    background-color:white;
+}
+#actualite .illustration{
+    width: 560px;
+    float: left;
+    height: 420px;
+    margin-top: 60px;
+    position:relative;
+    margin-left: 10px;
+}
+#actualite .date{
+    background-color:#c9c9c9;
+    position: absolute;
+    margin-top:10px;
+    margin-left:0;
+    padding:10px;
+    width:150px;
+    height:50px;
+    line-height: 31px;
+    text-align:center;
+    color:white;
+    font-size:130%;   
+}
+#actualite .tagname{
+    background-color:#c9c9c9;
+    position: relative;
+    margin-top:10px;
+    margin-left:160px;
+    padding:10px;
+    width:150px;
+    height:50px;
+    line-height: 31px;
+    text-align:center;
+    color:white;
+    font-size:130%; 
+}
+#actualite .title{
+    line-height: 31px;
+    text-align:left;
+    color:#727272;
+    font-size:200%;
+    font-weight:bold;
+    min-width:150px;
+    max-width:500px;
+    margin-top:40px;
+    float: left;
+}
+#actualite .text{
+    line-height: 31px;
+    text-align:left;
+    color:#727272;
+    font-size:130%;
+    max-width:500px;
+    max-height: 180px;
+    margin-top: 10px;
+    float: left;
+}
+#actualite .more{
+    border:3px solid #12a184;
+    background-color:white;
+    color:#12a184;
+    position: relative;
+    width:200px;
+    height:50px;
+    line-height: 43px;
+    text-align:center;
+    font-size:130%;
+    float: left;
+}
+#jeffries{
+    width:1920px;
+    height:646px;
+    background-color:#f0f0f0;
+}
+#documentation{
+    width:1920px;
+    height:359px;
+    background-color:#e2e2e2;
+}
+#documentation .subtitle{
+    background-color:#58b6d0;
+    width:200px;
+    height:50px;
+    text-align:center;
+    color:white;
+}
+#documentation .subtitle h3{
+    font-size:60%;
+    margin-top:15px;
+}
+#documentation .download{
+    float:left;
+    height:80px;
+    line-height:80px;
+    margin-top:15px;
+    font-weight: bold;
+    color:#6e6e6e;
+}
+#documentation .download:before{
+  content:url('../../Resources/images/download.jpg');
+  position:relative;
+  top: 30px;
+}
+#social{
+    width:1920px;
+    height:120px;
+    background-color:#58b6d0;
+    position:relative;
+}
+.social_bottom{
+    height:120px;
+    top:50%;
+    position:absolute;
+    padding-top:34px;
+}
+.social_bottom:hover{
+    background-color:#3a9ab3;
+}
+#footer{
+    width:1920px;
+    height:366px;
+    background:url('../../Resources/images/footer.jpg');
+}
+
+
+
+
+
+
+

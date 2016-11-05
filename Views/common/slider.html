@@ -1,0 +1,26 @@
+<div id="slider">
+    <div id="top-menu">
+        <div class="content">
+            <nav class="navbar-collapse collapse" role="navigation">
+                <ul class="navbar-nav nav">
+                    {loop="menu"}
+                    <li><a href="{$key}"><p>{$value}</p></a></li>
+                    {/loop}
+                </ul>
+                <div id="search">
+                    <div class="input-group stylish-input-group">
+                        <input type="text" class="form-control">
+                        <span class="input-group-addon">
+                            <button type="submit">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>  
+                        </span>
+                    </div>
+                </div>
+            </nav>
+            <div id="hangs">
+                <h1>{$sitetitle}<span style = "display: block;">{$sitesubtitle}</span></h1>
+            </div>
+        </div>
+    </div>
+</div>
